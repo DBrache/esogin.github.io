@@ -24,7 +24,7 @@ paginate:         5
                     # Or '/blog/page:num' if you want to move your index pages
 
 # Build settings
-theme: jekyll-theme-hydeout
+remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -41,4 +41,4 @@ twitter_username: MaggieSogin
 github_username:  esogin
 
 # need to add when installing for github pages
-remote_theme: fongandrew/hydeout
+#remote_theme: fongandrew/hydeout
