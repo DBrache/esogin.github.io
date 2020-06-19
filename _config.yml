@@ -24,7 +24,7 @@ paginate:         5
                     # Or '/blog/page:num' if you want to move your index pages
 
 # Build settings
-theme: jekyll-theme-hydeout
+remote_theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
   - jekyll-gist
