@@ -17,7 +17,7 @@ h6,
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h2 {
@@ -51,6 +51,7 @@ ol,
 dl {
   margin-bottom: 1rem;
   margin-top: 0;
+  list-style-type: none;
 }
 
 dt {
@@ -123,6 +124,7 @@ a[href^='#fnref:'] {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  font-family: $font-description-family;
 }
 
 // SVG Icons

@@ -3,4 +3,22 @@
 # only main files contain this front matter, not partials.
 ---
 
+// title 
+$title-font: 'Bellota', cursive !default;
+$sidebar-title-color: #E8EFE6 !default;
+
+//Description blots
+$font-description-family: 'Roberto', sans-serif !default;
+$sidebar-text-color: #E8EFE6 !default;
+
+//links & all other text
+$sidebar-link-color: #E8EFE6 !default;
+$root-font-family: 'Roberto', sans-serif !default;
+
+//background colors
+$sidebar-bg-color: #495057 !default;
+
+//sidebar behavior
+$sidebar-sticky: true;
+$layout-reverse: true !default;
 @import "hydeout";

@@ -3,11 +3,12 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://fongandrew.github.io
-baseurl:          '/hydeout'
+title:           Sogin lab
+tagline:          'E.M. Sogin'
+description:      '<a href="https://www.ucmerced.edu" target="_blank">@UC Merced</a>
+<br> Symbiosis, microbiology & the environment'
+url:              https://esoginlab.github.io
+baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -15,13 +16,15 @@ baseurl:          '/hydeout'
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'Maggie Sogin'
+  url:            https://twitter.com/MaggieSogin
 
 paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
+# Build settings
+theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -33,3 +36,9 @@ sidebar_home_link:  true
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
+
+twitter_username: MaggieSogin
+github_username:  esogin
+
+# need to add when installing for github pages
+remote_theme: fongandrew/hydeout
