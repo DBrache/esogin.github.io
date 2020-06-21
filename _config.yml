@@ -3,11 +3,10 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:           Sogin lab
-tagline:          '@ UC Merced'
-description:      'Symbiosis, microbiology & the environment 
-          <br> <a href="https://www.ucmerced.edu" target="_blank">@UC Merced</a>'
-url:              https://esoginlab.github.io
+title:           Maggie Sogin 
+tagline:          ''
+description:      'Symbiosis, microbiology & the environment'
+url:              https://esogin.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
