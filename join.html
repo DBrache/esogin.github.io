@@ -1,0 +1,14 @@
+---
+layout: default
+title: The Sogin Lab
+categories:
+ - home
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.join %}
+	{% assign joinpage = page %}
+{% endif %}
+{% endfor %}
+
+{{ joinpage.content }}
