@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Lab"
+description: "Code of Conduct In the Lab"
+group: navigation
+navorder: 2
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+{% if page.lab %}
+	{% assign labpage = page %}
+{% endif %}
+{% endfor %}
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+	    <div class="item">
+	    </div>
+	  </div>
+<div class="bigspacer"></div>
+<div class="row">
+	<div class="col-md-12">
+		<div class="smallhead">
+			{{ labpage.content }}
+		</div>
+	</div>				
+</div>
