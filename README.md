@@ -59,7 +59,7 @@ This new announcement won't yet be public. The next section shows you how to do 
 
 The same basic process is used to add protocols, team members, etc.
 
-## Updating the public site
+## Updating the public site 
 
 All edits should be made on the `staging` branch. When you start work, make sure you're on the staging branch:
 
