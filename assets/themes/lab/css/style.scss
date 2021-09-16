@@ -1,7 +1,7 @@
 ---
 ---
 
-$font-size-base: 10px;
+$font-size-base: 16px;
 $font-stack:    Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #000000;
 $subtle-color: #95a5a6;
@@ -117,7 +117,7 @@ a.off {
 }
 
 .member-name {
-	font-size: ceil($font-size-base*1);
+	font-size: ceil($font-size-base*1.2);
 }
 
 @media all and (max-width: 800) {
@@ -134,12 +134,6 @@ a.off {
 	font-size: $font-size-base*2;
 }
 
-.image-responsive{
-	max-width: 100%;
-	height: auto;
-	display:block;
-}
-
 // emphases
 
 term {
@@ -153,9 +147,9 @@ strong {
 // logo
 
 .logo {
-	width: 90px;
-	height: 75px;
-	padding: 3px;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
 }
 
 .biglogo {
@@ -179,7 +173,6 @@ strong {
 .navbar-brand { 
 	font-size: 30px; 
 	font-weight: $font-weight-base;
-	line-height: 50px;
 }
 
 .navbar-nav { 
@@ -187,9 +180,6 @@ strong {
 	font-weight: $font-weight-base;
 	a {
 		color: black;
-	}
-	li a{
-	line-height: 50px;
 	}
 }
 
@@ -203,7 +193,7 @@ strong {
 }
 
 .navbar-small {
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: $font-weight-base;
 }
 
@@ -221,7 +211,7 @@ strong {
 // carousel
 
 .carousel-fade {
-  opacity: 3;
+  opacity: 1;
 }
 .carousel-fade .item {
   -moz-transition: opacity ease-in-out .7s;
@@ -266,7 +256,7 @@ strong {
 // headings
 
 .logotitle {
-	font-size: 40px;
+	font-size: 30px;
 	font-size: 7vw;
 	line-height: 30px;
 	line-height: 4vw;
