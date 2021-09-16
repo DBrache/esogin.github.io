@@ -1,7 +1,7 @@
 ---
 ---
 
-$font-size-base: 20px;
+$font-size-base: 10px;
 $font-stack:    Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #000000;
 $subtle-color: #95a5a6;
@@ -120,7 +120,7 @@ a.off {
 	font-size: ceil($font-size-base*1);
 }
 
-@media all and (max-width: 1600) {
+@media all and (max-width: 800) {
 	.member-name {
 		font-size: $font-size-base;
 	}
