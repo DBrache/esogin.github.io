@@ -6,13 +6,10 @@ group: navigation
 navorder: 2
 ---
 {% include JB/setup %}
-<div class="bigspacer"></div>
-<div class="hugespacer"></div>
-<div class="head media-heading member-name">
-	Current Members
-</div>
 
 <div class="hugespacer"></div>
+<div class="hugespacer"></div>
+
 {% assign current_team = site.categories.team | where: "alum","false"%}
 {% assign memberindex = 0 %}
 {% for member in current_team reversed %}
@@ -21,21 +18,17 @@ navorder: 2
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-6 memberbox">
+	<div class="col-md-4 memberbox">
 		<div class="media">
-			<a class="pull-left" href="{{ member.url }}">
+				<a class="pull-left" href="{{ member.url }}">
 				<img class="media-object member-photo" class="align-self-center mr-3" src="{{ member.image }}">
-			</a>
-			 <div class="media-body">
-				<div class="head media-heading member-name">
-					<a href="{{ member.url }}" class="off">{{ member.title }}</a> 
-				</div>
-				<div class="bigspacer"></div>
+				</a>
+			 	<div class="media-body">
+				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
 				<p class="note">{{ member.position }}</p>
-			</div>
+				</div>
 		</div>
     </div>
-
 	{% if colindex == 0 %} <!-- closing a row -->
 	</div><div class="bigspacer"></div>
 	{% endif %}
@@ -46,13 +39,14 @@ navorder: 2
 
 <div class="bigspacer"></div>
 <hr/>
-
-
 <div class="row">
 	<div class="span4">
 		<a href=/join.html><img class="center-block" src="/assets/images/team/recruit.png" width=800/></a>
 	</div>
 </div> 
+
+
+
 
 <!-- 
 <div class="row">
