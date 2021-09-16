@@ -18,10 +18,10 @@ navorder: 2
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-6 memberbox">
+	<div class="col-md-4 memberbox">
 		<div class="media">
 				<a class="pull-left" href="{{ member.url }}">
-				<img class="media-object member-photo" class="align-self-center mr-3" src="{{ member.image }}">
+				<img class="media-object member-photo" src="{{ member.image }}">
 				</a>
 			 	<div class="media-body">
 				<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
