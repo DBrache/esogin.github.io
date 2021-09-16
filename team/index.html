@@ -18,7 +18,8 @@ navorder: 2
 	{% if colindex == 1 %} <!-- opening of a new row -->
 	<div class="row">
 	{% endif %}
-	<div class="col-md-6 memberbox">
+	<div class="row justify-content-around">
+	<div class="col-md-5 memberbox">
 		<div class="media">
 				<a class="pull-left" href="{{ member.url }}">
 				<img class="media-object member-photo" src="{{ member.image }}">
